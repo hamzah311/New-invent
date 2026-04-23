@@ -140,7 +140,7 @@ export default function HeroBanner({
 
                 <option value="Maintenance">Lift 3</option>
 
-                <option value="Consultation">Lift 3</option>
+                <option value="Consultation">Lift 4</option>
 
             </select>
             <textarea name="message" placeholder="Your Message" rows={4} required />
