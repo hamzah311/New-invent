@@ -76,23 +76,79 @@ export default function HeroBanner({
         playsInline
       />
 
-      {/* Dark overlay */}
+      {/* Overlay */}
       <div className={styles.overlay} />
 
-      {/* Bottom-left content */}
-      <div className={styles.content}>
-        <h1 className={styles.title}>
-          {title ?? (
-            <>
-              {data.hero.Heading} <span className={styles.gold}>{data.hero.highlightedText}</span>
-            </>
-          )}
-        </h1>
-        <p className={styles.subtitle}>{subtitle ?? data.hero.subHeading}</p>
-        <button className={styles.ctaBtn}>
-          <span className={styles.ctaText}>{data.hero.buttonText}</span>
-          <span className={styles.ctaArrow}>↗</span>
-        </button>
+      {/* NEW FLEX CONTAINER */}
+      <div className={styles.inner}>
+
+        {/* LEFT CONTENT */}
+        <div className={styles.content}>
+          <h1 className={styles.title}>
+            {title ?? (
+              <>
+                {data.hero.Heading}{" "}
+                <span className={styles.gold}>
+                  {data.hero.highlightedText}
+                </span>
+              </>
+            )}
+          </h1>
+
+          <p className={styles.subtitle}>
+            {subtitle ?? data.hero.subHeading}
+          </p>
+
+          <button className={styles.ctaBtn}>
+            <span className={styles.ctaText}>
+              {data.hero.buttonText}
+            </span>
+            <span className={styles.ctaArrow}>↗</span>
+          </button>
+        </div>
+
+        {/* RIGHT FORM (FormSubmit Integrated) */}
+        <div className={styles.formBox}>
+          <form
+            className={styles.form}
+            action="https://formsubmit.co/info@inventelevator.com"
+            method="POST"
+          >
+            <h3>Get in touch</h3>
+
+            {/* Hidden fields */}
+            <input type="hidden" name="_captcha" value="false" />
+            <input type="hidden" name="_subject" value="New Hero Form Submission" />
+            <input type="hidden" name="_template" value="table" />
+            <input type="text" name="_honey" style={{ display: "none" }} />
+            <input
+              type="hidden"
+              name="_autoresponse"
+              value="Thanks! We’ll contact you soon."
+            />
+
+            {/* Fields */}
+            <input type="text" name="name" placeholder="Your Name" required />
+            <input type="email" name="email" placeholder="Your Email" required />
+            <select name="service" required>
+
+                <option value="">Select Service</option>
+
+                <option value="Home Lift">Lift 1</option>
+
+                <option value="Glass Elevator">Lift 2</option>
+
+                <option value="Maintenance">Lift 3</option>
+
+                <option value="Consultation">Lift 3</option>
+
+            </select>
+            <textarea name="message" placeholder="Your Message" rows={4} required />
+
+            <button type="submit">Submit</button>
+          </form>
+        </div>
+
       </div>
     </div>
   );
