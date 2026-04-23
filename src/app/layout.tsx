@@ -6,6 +6,7 @@ import "./globals.css";
 const montserrat = Montserrat({
   subsets: ["latin"],
   variable: "--font-montserrat",
+  weight: ["100", "200", "300", "400", "500", "600", "700", "800", "900"],
 })
 
 const verah = localFont({
@@ -36,6 +37,12 @@ const gotham = localFont({
       weight: "700",
       style: "normal",
     },
+    {
+      path: "../../public/fonts/icielgothamultraregular.otf",
+      weight: "900",
+      style: "normal",
+    },
+
   ],
   variable: "--font-gotham",
 })

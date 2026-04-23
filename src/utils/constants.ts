@@ -9,9 +9,9 @@ export const HERO_TEXTS = {
     },
     CAR: {
         hero: {
-            Heading: 'Redefining',
-            highlightedText: 'Vertical Mobility',
-            subHeading: "Precision-Engineered Car Lifts That Blend Into Your Space.",
+            Heading: 'Smart lift for smarter',
+            highlightedText: 'building',
+            subHeading: "Smart lift solution for business environment.",
             buttonText: "Get a free quote",
         }
     },
@@ -722,4 +722,108 @@ export const DESIGNED_SPACES_HERO = {
             "/images/t4.jpg",
         ]
     },
+}
+export const FAQ = {
+    HOME: {
+        fnq: [
+            {
+                id: "01",
+                question: "What types of elevators does Invent Elevator offer?",
+                answer:
+                    "We offer a wide range of elevator solutions including passenger lifts, home lifts, hospital elevators, goods lifts and custom-designed elevator systems tailored to project requirements.",
+            },
+            {
+                id: "02",
+                question: "Do you provide customized elevator solutions?",
+                answer:
+                    "Yes, we specialize in bespoke elevator designs that match your building's architecture, load requirements, and aesthetic preferences. Our engineers work closely with you from concept to installation.",
+            },
+            {
+                id: "03",
+                question: "Are your elevators safe during power failure?",
+                answer:
+                    "All our elevators are equipped with battery-powered rescue devices (ARD) that automatically lower the cabin to the nearest floor and open the doors safely in case of a power outage.",
+            },
+            {
+                id: "04",
+                question: "Do you offer installation and maintenance services?",
+                answer:
+                    "Absolutely. We provide end-to-end services including site surveys, installation, commissioning, annual maintenance contracts (AMC), and 24/7 emergency support.",
+            },
+            {
+                id: "05",
+                question: "What is the typical lead time for an elevator project?",
+                answer:
+                    "Lead times vary by project complexity, but a standard passenger lift typically takes 8–12 weeks from order confirmation to installation completion.",
+            },
+        ]
+    },
+    CAR: {
+        fnq: [
+            {
+                id: "01",
+                question: "What types of elevators does Invent Elevator offer?",
+                answer:
+                    "We offer a wide range of elevator solutions including passenger lifts, home lifts, hospital elevators, goods lifts and custom-designed elevator systems tailored to project requirements.",
+            },
+            {
+                id: "02",
+                question: "Do you provide customized elevator solutions?",
+                answer:
+                    "Yes, we specialize in bespoke elevator designs that match your building's architecture, load requirements, and aesthetic preferences. Our engineers work closely with you from concept to installation.",
+            },
+            {
+                id: "03",
+                question: "Are your elevators safe during power failure?",
+                answer:
+                    "All our elevators are equipped with battery-powered rescue devices (ARD) that automatically lower the cabin to the nearest floor and open the doors safely in case of a power outage.",
+            },
+            {
+                id: "04",
+                question: "Do you offer installation and maintenance services?",
+                answer:
+                    "Absolutely. We provide end-to-end services including site surveys, installation, commissioning, annual maintenance contracts (AMC), and 24/7 emergency support.",
+            },
+            {
+                id: "05",
+                question: "What is the typical lead time for an elevator project?",
+                answer:
+                    "Lead times vary by project complexity, but a standard passenger lift typically takes 8–12 weeks from order confirmation to installation completion.",
+            },
+        ]
+    },
+    PASSENGER_ELEVATOR: {
+        fnq: [
+            {
+                id: "01",
+                question: "What types of elevators does Invent Elevator offer?",
+                answer:
+                    "We offer a wide range of elevator solutions including passenger lifts, home lifts, hospital elevators, goods lifts and custom-designed elevator systems tailored to project requirements.",
+            },
+            {
+                id: "02",
+                question: "Do you provide customized elevator solutions?",
+                answer:
+                    "Yes, we specialize in bespoke elevator designs that match your building's architecture, load requirements, and aesthetic preferences. Our engineers work closely with you from concept to installation.",
+            },
+            {
+                id: "03",
+                question: "Are your elevators safe during power failure?",
+                answer:
+                    "All our elevators are equipped with battery-powered rescue devices (ARD) that automatically lower the cabin to the nearest floor and open the doors safely in case of a power outage.",
+            },
+            {
+                id: "04",
+                question: "Do you offer installation and maintenance services?",
+                answer:
+                    "Absolutely. We provide end-to-end services including site surveys, installation, commissioning, annual maintenance contracts (AMC), and 24/7 emergency support.",
+            },
+            {
+                id: "05",
+                question: "What is the typical lead time for an elevator project?",
+                answer:
+                    "Lead times vary by project complexity, but a standard passenger lift typically takes 8–12 weeks from order confirmation to installation completion.",
+            },
+        ]
+    }
 }

@@ -97,6 +97,7 @@
 
 .faqQuestion {
   font-size: 0.97rem;
+  font-family: var(--font-gotham);
   font-weight: 600;
   color: #1a1a1a;
 }
@@ -126,8 +127,10 @@
 }
 
 .faqAnswer {
+  font-family: var(--font-gotham);
   font-size: 0.88rem;
   line-height: 1.75;
+  font-weight: normal;
   color: #666;
 }
 

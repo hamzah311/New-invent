@@ -49,6 +49,8 @@
     align-items: center;
     text-decoration: none;
     gap: 12px;
+    height: 36px;
+    margin-bottom: 8px;
 }
 
 .logoIcon {

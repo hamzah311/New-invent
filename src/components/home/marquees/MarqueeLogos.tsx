@@ -2,25 +2,23 @@ import styles from "./MarqueeLogos.module.css";
 
 // Top row logos (left to right direction → animate left)
 const topLogos = [
-  { src: "/logos/da5d35389205cfb53960dd22643fc37fcbbb2a52.png", alt: "Distinguished Real Estate" },
-  { src: "/logos/da5d35389205cfb53960dd22643fc37fcbbb2a52.png", alt: "Distinguished Real Estate" },
-  { src: "/logos/da5d35389205cfb53960dd22643fc37fcbbb2a52.png", alt: "Distinguished Real Estate" },
-  { src: "/logos/da5d35389205cfb53960dd22643fc37fcbbb2a52.png", alt: "Distinguished Real Estate" },
-  { src: "/logos/da5d35389205cfb53960dd22643fc37fcbbb2a52.png", alt: "Distinguished Real Estate" },
-  { src: "/logos/da5d35389205cfb53960dd22643fc37fcbbb2a52.png", alt: "Distinguished Real Estate" },
-  { src: "/logos/da5d35389205cfb53960dd22643fc37fcbbb2a52.png", alt: "Distinguished Real Estate" },
-
+  { src: "/logos/logo-2.png", alt: "Logo 2" },
+  { src: "/logos/logo-3.png", alt: "Logo 3" },
+  { src: "/logos/logo-4.png", alt: "Logo 4" },
+  { src: "/logos/logo-5.png", alt: "Logo 5" },
+  { src: "/logos/logo-6.png", alt: "Logo 6" },
+  { src: "/logos/logo-7.png", alt: "Logo 7" },
+  { src: "/logos/logo-8.png", alt: "Logo 8" },
 ];
 
 // Bottom row logos (right to left → animate right)
 const bottomLogos = [
-  { src: "/logos/da5d35389205cfb53960dd22643fc37fcbbb2a52.png", alt: "Distinguished Real Estate" },
-  { src: "/logos/da5d35389205cfb53960dd22643fc37fcbbb2a52.png", alt: "Distinguished Real Estate" },
-  { src: "/logos/da5d35389205cfb53960dd22643fc37fcbbb2a52.png", alt: "Distinguished Real Estate" },
-  { src: "/logos/da5d35389205cfb53960dd22643fc37fcbbb2a52.png", alt: "Distinguished Real Estate" },
-  { src: "/logos/da5d35389205cfb53960dd22643fc37fcbbb2a52.png", alt: "Distinguished Real Estate" },
-  { src: "/logos/da5d35389205cfb53960dd22643fc37fcbbb2a52.png", alt: "Distinguished Real Estate" },
-  { src: "/logos/da5d35389205cfb53960dd22643fc37fcbbb2a52.png", alt: "Distinguished Real Estate" },
+  { src: "/logos/logo-9.png", alt: "Logo 9" },
+  { src: "/logos/logo-10.png", alt: "Logo 10" },
+  { src: "/logos/logo-11.png", alt: "Logo 11" },
+  { src: "/logos/logo-12.png", alt: "Logo 12" },
+  { src: "/logos/logo-13.png", alt: "Logo 13" },
+  { src: "/logos/logo-14.png", alt: "Logo 14" },
 ];
 
 interface LogoRowProps {
